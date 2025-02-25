@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Html</title>
+    <!-- untuk nambhin icon di tab -->
+    <link rel="icon" href="logo.png" type="image/png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="logo.png" />
+
+
+  </head>
+
+  <body>
+    <!-- ini inline element -->
+    <em>ini adalah contoh paragraf yang singkat</em> <!--pake <i> juga bisa -->
+    <!-- blok element -->
+    <p>My cat is <strong>very</strong> grumpy.</p>
+    <!-- salah -->
+    <p>My cat is <strong>very grumpy.</p></strong>
+
+    <!-- blok element -->
+    <strong>ini adalah text tebal</strong>
+    <em>ini adalah text miring</em>
+    <u>ini adalah text underline</u>
+    <small>ini adalah text kecil</small>
+    <span>text biasany untuk nampung elemen atau konten yang nnti di style sama css</span>
+
+    <!-- blok element -->
+    <p>4</p>
+    <p>5</p>
+    <em>1</em><em>2</em>
+
+    <!-- tipe img in line element -->
+    <img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png"
+      alt="Firefox icon" />
+    <p class="paragraf1" id="paragraf1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sunt eveniet
+      repudiandae atque sint hic quo. Possimus vitae totam iste, optio similique veniam illum ducimus atque eligendi ipsa
+      consequuntur sapiente?</p>
+
+    <!-- active learning atribut -->
+    <img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png"
+      alt="The Firefox icon" width="300" height="300">
+    <p>
+      <img
+        src="https://cdn.idntimes.com/content-images/community/2024/03/fotogrid-20240304-192012236-779c2639fac019accf02dae4b183db6b-583e87245b0fe6dbd5bbbde795e9ee42_600x400.jpg"
+        alt="arya mohan" width="300" height="200">
+    <p>Arya Mohan<strong> Ganteng</strong> loppppe</p>
+    </p>
+
+    <p>klik link untuk ke mozilla
+      <a href="https://www.mozilla.org/" title="the mozilla homepage" target="_blank">menuju mozilla</a>
+    </p>
+
+    <!-- alt digunakan untuk memberi keterangan saat gambar yang kita masukkan tidak muncul -->
+    <img src="gambar_tidak_ada.jpg" alt="Gambar tidak ditemukan">
+    <img alt="i should be an image">
+
+    <!-- boolean atribut -->
+    <!-- kalo disable ini dihilangkan maka kotak di web bisa kita isi -->
+    <input type="text" disabled="disabled" />
+    <p>
+      <!-- short handnya -->
+      <input type="text" disabled />
+      <input type="text" />
+    </p>
+
+    <!-- ini tentang omiting quotes around atrribute -->
+    <a href=https://www.mozilla.org />favorite website</a>
+    <!--  -->
+    <br><!-- ini untuk enter -->
+    <a href=https://www.mozilla.org/ title=The Mozilla homepage>favorite website</a>
+    <!-- kan yang atas ga pake tanda kutip jadi tittle nya cuma di ambil the doang dia
+    ngambil satu kata bisa kalo ga pake spasi tittle nya. jadi kalo pake atribut pake tanda kutip
+    biar rapi dan yah pokok nya pakein-->
+
+    <!-- tanda kutip tunggal atau ganda -->
+    <br>
+    <a href="https://www.mozilla.org/" title=The Mozilla homepage>favorite website</a>
+    <!-- <a href="https://www.example.com" title="Isn't this fun?">
+    A link to my example.</a>
+    nah ini kalo di value kita pake kutip 2 ga masalah tpi kalo pake kutip 1 nnti berhenti
+    di isn't karna itu bisa dianggap kutip penutup.
+
+    jadi untuk ngakalan itu bisa pake entitis html kode, cari aja di google.
+    contoh di bawah ini
+  -->
+    <u>&num;</u>
+    <!-- saran: untuk kutip pembuka pake kutip 2 dan value kutip 1 -->
+
+    <!-- whitespace -->
+    <!-- hasilnya sama ga ngaruh seberpa banyak spasi atau tab atau enter yang kita kasih
+    si html ini akan ngurangi space nya jadi 1 aja -->
+    <p id="noWhitespace">Dogs are silly.</p>
+
+    <p id="whitespace">Dogs
+      are
+      silly.</p>
+    <!-- kalao untuk batas element ke elemnt itu ga di anggap tp kalo dalam content cuma 1 spasi, tapi kalo 
+    dari atribut value itu baru keitung spasi nya seberapa banyak -->
+
+  </body>
+
+</html>
